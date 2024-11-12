@@ -9,3 +9,4 @@
 |3|PaddlePaddle/Paddle|[fix: typo in dimension error message  recevied -> received #68989](https://github.com/PaddlePaddle/Paddle/pull/68989)|F-|纯水，修改单词.|
 |4|PaddlePaddle/Paddle|[【Paddle Tensor No.21】：新增 bitwise_invert，复用已有接口 Tenosr.__invert__ -part #69197](https://github.com/PaddlePaddle/Paddle/pull/69197)|B-|复用已有接口，本身没啥意义，但我第一次正经PR,一帮大佬喂饭，感谢，加分。|
 |5|PaddlePaddle/docs|[【Paddle Tensor No.21】docs: Add docs for Tensor.bitwise_invert #6932](https://github.com/PaddlePaddle/docs/pull/6932#event-15244677592)|C|Paddle的docstring是rst可以转换到html和COPY-FROM.格式要求严格
+|6|PaddlePaddle/Paddle|[【Paddle Tensor No.22】: 新增 paddle.less Tensor.less #69270](https://github.com/PaddlePaddle/Paddle/pull/69270)|C+|学会了用as的方式来直接来创建别名|
