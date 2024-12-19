@@ -13,8 +13,10 @@
 |7|PaddlePaddle/Paddle|[【Paddle Tensor No.13】: 新增paddle.positive和Tensor.__pos__ #69256](https://github.com/PaddlePaddle/Paddle/pull/69256)|B-|自己学着numpy加了一个positive,多做一些。|
 |8|PaddlePaddle/Paddle|[【Paddle Tensor No.8、9、14、15】:为Tensor新增`__rshift__`,`__lshift__`,`__rlshift__`,`__rrshift__`#69348](https://github.com/PaddlePaddle/Paddle/pull/69348)|B+|大致区分编译时和运行时的方法import以及什么时候可能失败,完成一半,再把AutoTensor算子定义出来直接A|
 |9|PaddlePaddle/Paddle|[【Typos】 Add Typos to pre-commit #69434](https://github.com/PaddlePaddle/Paddle/pull/69434#event-15325293073)|A-|理解了pre-commit以及学会了pre-commit-hook的自定义|
-
+|10|PaddlePaddle/Paddle|[refact: 复用 less_than 实现 less,而不是直接 import less_than as less #69449](https://github.com/PaddlePaddle/Paddle/pull/69449)|B-|新增别名不能直接用import as,某些情况会覆盖原来的函数名。|
+|11|PaddlePaddle/Paddle|[[CodeStyle][Typos] Use --force-exclude to support files.extend-exclude in pre-commit #69530 ](https://github.com/PaddlePaddle/Paddle/pull/69530)|B+|pre-commit中，typos需要增加`--force-exclude`参数来同时兼容排除文件。|
 
 ---
 
 太累了，我也需要做一个AutoTable才行。<br>
+所以这里docs就不再记录了，记录一些我学到东西的。<br>
