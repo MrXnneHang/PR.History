@@ -20,3 +20,7 @@
 
 太累了，我也需要做一个AutoTable才行。<br>
 所以这里docs就不再记录了，记录一些我学到东西的。<br>
+
+
+## 学习一下别人的 PR:
+- [在typos中使用正则表达式。](https://github.com/PaddlePaddle/Paddle/pull/70623)<br>
